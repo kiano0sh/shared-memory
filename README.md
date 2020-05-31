@@ -1,11 +1,11 @@
 ## How to build:
 
 ```sh
-$ gcc shared_memory.c
+$ gcc shared_memory.c -o shared_memory
 ```
 
-or
+## How to execute:
 
 ```sh
-$ clang shared_memory.c
+$ ./multi_threading
 ```
