@@ -57,6 +57,7 @@ int main(void)
         out = (out + 1) % BUFFER_SIZE;
         consumer_counter++;
     }
+    return 0;
 }
 
 void print_buffered_array(item buffered_array[BUFFER_SIZE])
